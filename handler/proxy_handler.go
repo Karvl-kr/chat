@@ -70,3 +70,7 @@ func (p *ProxyHandler) checkToken(token string) bool {
 	p.user.UpdateCount(user)
 	return true
 }
+
+func (p *ProxyHandler) CheckToken(toke string) bool {
+	return p.checkToken(toke)
+}

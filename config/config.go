@@ -8,7 +8,7 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-const configFilename = "config.yaml"
+const configFilename = "../config.yaml"
 
 type Config struct {
 	OpenAIKey string       `yaml:"OpenAIKey"`
